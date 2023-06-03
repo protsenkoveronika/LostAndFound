@@ -1,0 +1,18 @@
+<%-- 
+    Document   : header
+    Created on : 11 трав. 2023 р., 21:40:30
+    Author     : user
+--%>
+
+<%@ page pageEncoding="UTF-8" %>
+<header>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <h1>Lost and Found</h1>
+    <nav>
+        <ul>
+            <li><a href="/LostAndFound/do/catalog">Catalog</a></li>
+            <li><a href="/LostAndFound/do/expensive">Expensive Items</a></li>
+        </ul>
+    </nav>
+</header>
+<p></p>

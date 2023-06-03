@@ -1,0 +1,10 @@
+<%-- 
+    Document   : footer
+    Created on : 11 трав. 2023 р., 21:43:34
+    Author     : user
+--%>
+
+<%@page pageEncoding="UTF-8"%>
+<footer style="text-align: center;">
+    <p>&copy; Copyright 2023 </p>
+</footer>

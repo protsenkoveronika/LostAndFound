@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 трав. 2023 р., 21:18:43
+    Author     : user
+*/
+
+body {
+    margin: 20px;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+header nav {
+    height: 50px;
+    margin-left: auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    margin-right: 15px;
+    float: left;
+}
+
+header a {
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.split-container {
+    display: flex;
+    height: 100vh;
+}
+  
+.left-half-i {
+    flex-basis: 50%;
+    background-color: #F7CAC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.right-half-i {
+    flex-basis: 50%;
+    background-color: #C7CEEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.left-half {
+    flex-basis: 50%;
+    background-color: #F7CAC9;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left-half form {
+    justify-content: right;
+}
+
+h2 {
+    display: flex;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.right-half {
+    flex-basis: 50%;
+    background-color: #C7CEEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.right-half form {
+    justify-content: right;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.column input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.el {
+    margin-top: 50px; 
+}
